@@ -17,7 +17,7 @@ const Contact = () => {
                     <h2 className=" text-3xl font-semibold mb-12 dark:text-white underline underline-offset-8">
                         Contact me
                     </h2>
-                    <div className=" mx-auto max-w-[30rem] bg-black text-white dark:bg-[#fafafa] dark:text-black shadow-md flex flex-col justify-center rounded-lg shadow-lg gap-6 px-5 sm:px-10 md:px-20 py-6 md:py-10">
+                    <div className=" mx-auto max-w-[30rem] bg-[#101010] text-white dark:bg-[#fafafa] dark:text-black flex flex-col justify-center rounded-lg shadow-xl gap-6 px-5 sm:px-10 md:px-20 py-6 md:py-10">
                         <div>
                             <div className="flex items-center gap-2 text-lg">
                                 <MdEmail />
@@ -44,8 +44,9 @@ const Contact = () => {
 
                             <div className="mt-3">
                                 <a
-                                    className="py-2 px-4 bg-white text-black dark:bg-black dark:text-white rounded mr-2 font-semibold shadow-md"
-                                    href=""
+                                    className="py-2 px-4 bg-white text-black dark:bg-[#101010] dark:text-white rounded mr-2 font-semibold shadow-md"
+                                    href="https://github.com/woolajohnson"
+                                    target="_blank"
                                 >
                                     <FaGithub className=" inline-block mr-1" />
                                     Github

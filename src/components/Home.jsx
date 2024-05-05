@@ -1,5 +1,5 @@
 import React from "react";
-import Edward from "../assets/images/edward2.jpg";
+import Edward from "../assets/images/edward.jpg";
 import { Link } from "react-scroll";
 
 const Home = () => {
