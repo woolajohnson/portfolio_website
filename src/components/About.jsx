@@ -12,10 +12,7 @@ import Laravel from "../assets/images/laravel.png";
 import MySql from "../assets/images/mysql.png";
 import Jquery from "../assets/images/jQuery.png";
 
-const About = ({ darkMode, toggleDarkMode }) => {
-    const toggleMode = (menu) => {
-        toggleDarkMode(menu);
-    };
+const About = () => {
     const techs = [
         {
             id: 1,
@@ -105,9 +102,7 @@ const About = ({ darkMode, toggleDarkMode }) => {
     return (
         <main
             name="about"
-            className={`${
-                darkMode && "dark"
-            } min-h-screen dark:bg-[#101010] pt-20 md:pt-10 bg-white`}
+            className="min-h-screen dark:bg-[#1e1e1e] pt-20 md:pt-10 bg-white"
         >
             <article className="flex flex-col lg:flex-row px-4 py-16 gap-2 lg:gap-10 justify-between items-center min-h-screen max-w-screen-lg mx-auto">
                 <section className="lg:max-w-[50%] px-5">

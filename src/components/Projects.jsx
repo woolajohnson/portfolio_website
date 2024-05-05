@@ -4,10 +4,7 @@ import OnOff from "../assets/images/on_off.png";
 import Sports from "../assets/images/sports.png";
 import OnePunch from "../assets/images/onepunch.png";
 
-const Projects = ({ darkMode, toggleDarkMode }) => {
-    const toggleMode = (menu) => {
-        toggleDarkMode(menu);
-    };
+const Projects = () => {
     const projectImages = [
         {
             id: 1,
@@ -39,12 +36,7 @@ const Projects = ({ darkMode, toggleDarkMode }) => {
         },
     ];
     return (
-        <main
-            name="projects"
-            className={`${
-                darkMode && "dark"
-            } min-h-screen dark:bg-[#101010] pt-20`}
-        >
+        <main name="projects" className="min-h-screen dark:bg-[#101010] pt-20">
             <article className="px-4 py-2 max-w-screen-lg mx-auto">
                 <h2 className=" text-3xl font-semibold mb-12 underline underline-offset-8 dark:text-white">
                     Projects
