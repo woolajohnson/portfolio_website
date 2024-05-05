@@ -38,7 +38,7 @@ const Projects = () => {
     return (
         <main name="projects" className="min-h-screen dark:bg-[#101010] pt-20">
             <article className="px-4 py-2 max-w-screen-lg mx-auto">
-                <h2 className=" text-3xl font-semibold mb-12 underline underline-offset-8 dark:text-white">
+                <h2 className=" text-3xl font-semibold px-5 mb-12 underline underline-offset-8 dark:text-white">
                     Projects
                 </h2>
                 <section className="grid grid-cols-1 gap-8 md:grid-cols-2 px-8 md:px-20 lg:px-28 py-4 md:gap-10 lg:gap-16 mb-11">

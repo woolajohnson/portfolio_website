@@ -102,11 +102,11 @@ const About = () => {
     return (
         <main
             name="about"
-            className="min-h-screen dark:bg-[#1e1e1e] pt-20 md:pt-10 bg-white"
+            className="min-h-screen dark:bg-slate-900 pt-20 md:pt-10 bg-white"
         >
             <article className="flex flex-col lg:flex-row px-4 py-16 gap-2 lg:gap-10 justify-between items-center min-h-screen max-w-screen-lg mx-auto">
                 <section className="lg:max-w-[50%] px-5">
-                    <h2 className=" text-3xl font-semibold mb-12 w-5/6 dark:text-white underline underline-offset-8">
+                    <h2 className=" text-3xl font-semibold mb-12 dark:text-white underline underline-offset-8">
                         About me
                     </h2>
                     <p className="my-8 text-xl text-justify dark:text-white leading-loose">
@@ -123,23 +123,23 @@ const About = () => {
                         <span className="bg-[#08D9D6]">
                             Village88 training bootcamp
                         </span>
-                        , where I gained experience in using these tech stack.
+                        , where I gained experience in using these technologies.
                     </p>
                 </section>
                 <section className="w-full lg:w-[45%] flex justify-center items-center p-2">
                     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-3 gap-4 p-2">
-                        {techs.map(({ id, src, alt, name }) => {
+                        {techs.map(({ id, src, alt, name, shadow }) => {
                             return (
                                 <div
                                     key={id}
-                                    className={`size-28 flex flex-col gap-2 justify-center items-center rounded-md hover:-translate-y-2 duration-700 bg-white shadow-md`}
+                                    className={`size-28 flex flex-col gap-2 justify-center items-center rounded-md hover:-translate-y-2 duration-700 bg-[#fafafa] shadow-md shadow-slate-400`}
                                 >
                                     <img
                                         src={src}
                                         className={`size-10`}
                                         alt={alt}
                                     />
-                                    <p className="text-xs text-gray-400">
+                                    <p className="text-xs text-gray-600">
                                         {name}
                                     </p>
                                 </div>
