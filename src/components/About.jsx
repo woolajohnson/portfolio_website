@@ -135,7 +135,6 @@ const About = () => {
                                     className={`size-28 flex flex-col gap-2 justify-center items-center rounded-md hover:-translate-y-2 duration-700 bg-[#fafafa] shadow-md shadow-slate-400`}
                                 >
                                     <img
-                                        loading="lazy"
                                         src={src}
                                         className={`size-10`}
                                         alt={alt}

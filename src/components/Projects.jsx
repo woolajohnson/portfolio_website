@@ -11,7 +11,7 @@ const Projects = () => {
             src: FlavorFinds,
             alt: "FlavorFinds",
             title: "FlavorFinds",
-            stack: "React, Tailwind, Laravel, InertiaJS",
+            stack: "React, Tailwind, Laravel, MySql, InertiaJS",
             demo: "https://youtu.be/Y0O-4IaqYYM",
             code: "https://github.com/woolajohnson/flavorfinds_capstone",
         },
@@ -60,10 +60,10 @@ const Projects = () => {
                                     <h4 className="text-center text-white bg-[#101010] py-3 text-xl font-semibold">
                                         {title}
                                     </h4>
-                                    <img loading="lazy" src={src} alt={alt} />
+                                    <img src={src} alt={alt} />
 
                                     <div className="flex flex-col justify-between items-center py-4">
-                                        <h4 className="p-4 text-lg font-semibold text-center">
+                                        <h4 className="p-4 text-md font-semibold text-center">
                                             {stack}
                                         </h4>
                                         <div className="flex justify-center gap-4">

@@ -54,7 +54,8 @@ const Contact = () => {
 
                                 <a
                                     className="py-2 px-4 bg-white text-blue-600 dark:bg-blue-600 dark:text-white rounded mr-2 font-semibold shadow-md"
-                                    href=""
+                                    href="https://www.linkedin.com/in/edwardson-andrade-jr/"
+                                    target="_blank"
                                 >
                                     <FaLinkedin className=" inline-block mr-1" />
                                     LinkedIn
