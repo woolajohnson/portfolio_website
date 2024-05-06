@@ -20,7 +20,9 @@ const Home = () => {
                         together!
                     </p>
                     <span className="px-6 py-3 font-medium bg-slate-800 rounded text-white hover:bg-[#08D9D6] shadow-md duration-300 cursor-pointer dark:bg-white dark:text-slate-800 dark:hover:text-white">
-                        <Link to="projects">View Projects</Link>
+                        <Link to="projects" smooth duration={500}>
+                            View Projects
+                        </Link>
                     </span>
                 </section>
                 <section className="order-1 md:order-2 shrink-0">
