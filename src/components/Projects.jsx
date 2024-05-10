@@ -1,5 +1,5 @@
 import React from "react";
-import FlavorFinds from "../assets/images/flavorfinds.png";
+import FlavorFinds from "../assets/images/flavorfinds.jpg";
 import TaskLogger from "../assets/images/tasklogger.png";
 import Chatroom from "../assets/images/chatroom.png";
 import OnePunch from "../assets/images/onepunch.png";
