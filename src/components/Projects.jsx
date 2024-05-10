@@ -60,7 +60,7 @@ const Projects = () => {
                                     <h4 className="text-center text-white bg-[#101010] py-3 text-xl font-semibold">
                                         {title}
                                     </h4>
-                                    <img src={src} alt={alt} />
+                                    <img loading="lazy" src={src} alt={alt} />
 
                                     <div className="flex flex-col justify-between items-center py-4">
                                         <h4 className="p-4 text-md font-semibold text-center">

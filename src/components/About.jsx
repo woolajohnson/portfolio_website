@@ -128,7 +128,7 @@ const About = () => {
                 </section>
                 <section className="w-full lg:w-[45%] flex justify-center items-center p-2">
                     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-3 gap-4 p-2">
-                        {techs.map(({ id, src, alt, name, shadow }) => {
+                        {techs.map(({ id, src, alt, name }) => {
                             return (
                                 <div
                                     key={id}
@@ -136,6 +136,7 @@ const About = () => {
                                 >
                                     <img
                                         src={src}
+                                        loading="lazy"
                                         className={`size-10`}
                                         alt={alt}
                                     />
