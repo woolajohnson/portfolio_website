@@ -4,6 +4,7 @@ import { FaMobileAlt } from "react-icons/fa";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { RiProfileFill } from "react-icons/ri";
 import Footer from "./Footer";
 
 const Contact = () => {
@@ -35,6 +36,20 @@ const Contact = () => {
                             </div>
 
                             <p className="text-gray-400">09978705634</p>
+                        </div>
+                        <div>
+                            <div className="flex items-center gap-2 text-lg">
+                                <RiProfileFill />
+                                <h4>My Resume</h4>
+                            </div>
+
+                            <a
+                                href="https://drive.google.com/file/d/12sFU9RrMr8X8tjGW9ztv4zfbpGBArAFj/view?usp=sharing"
+                                target="_blank"
+                                className="text-gray-400"
+                            >
+                                andrade_resume.pdf
+                            </a>
                         </div>
                         <div>
                             <div className="flex items-center gap-2 text-lg">

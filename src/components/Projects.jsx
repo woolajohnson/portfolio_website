@@ -2,7 +2,7 @@ import React from "react";
 import FlavorFinds from "../assets/images/flavorfinds.jpg";
 import TaskLogger from "../assets/images/tasklogger.png";
 import Chatroom from "../assets/images/chatroom.png";
-import OnePunch from "../assets/images/onepunch.png";
+import Jokes from "../assets/images/joke.png";
 
 const Projects = () => {
     const projectImages = [
@@ -35,12 +35,12 @@ const Projects = () => {
         },
         {
             id: 4,
-            src: OnePunch,
-            alt: "React Bootstrap",
-            title: "React-Bootstrap App",
-            stack: "Tech Stack - Reactjs, React-Bootstrap",
-            demo: "https://github.com/woolajohnson/flavorfinds_capstone",
-            code: "https://github.com/woolajohnson/flavorfinds_capstone",
+            src: Jokes,
+            alt: "Joke Generator App",
+            title: "Joke Generator App",
+            stack: "CodeIgniter 3, Bootstrap, MySql",
+            demo: "https://youtu.be/QEu9gpC4NzA",
+            code: "https://github.com/woolajohnson/PHP-CodeIgniter/tree/main/jokes",
         },
     ];
     return (
